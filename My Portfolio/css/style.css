@@ -1,0 +1,225 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn1 {
+  height: 60px;
+  width: 189px;
+  border-radius: 6px;
+  background: #1e90ff;
+  border: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+
+.btn1:hover {
+  opacity: 1;
+}
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #1e90ff 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+#showcase {
+  min-height: 788px;
+  background: url("../imgs/showcase.jpg") no-repeat;
+  text-align: center;
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+#showcase .myName {
+  color: #1e90ff;
+}
+
+#showcase h1 {
+  margin-top: 350px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.aboutMe {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+  text-align: center;
+}
+
+.aboutMe h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.aboutMe p {
+  font-size: 25px;
+}
+
+.aboutMe h3 {
+  font-size: 30px;
+}
+
+#boxescontainer {
+  display: flex;
+  width: 80%;
+  margin-left: 100px;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes h3 {
+  font-size: 26px;
+}
+
+#boxes p {
+  font-size: 18px;
+}
+
+#boxes .box {
+  float: left;
+  width: 30%;
+  padding: 10px 20px 0 20px;
+  text-align: center;
+}
+
+#boxes .box img {
+  width: 110px;
+}
+
+.profileDesc {
+  text-align: left;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #35424a;
+  text-align: center;
+}
+
+#footerNav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.socialMedia img {
+  width: 40px;
+  padding: 0 4px 0 4px;
+  border-radius: 40px;
+}
+
+.skills {
+  width: 70%;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 1rem 0 0 1rem;
+}
+
+.profileDesc h3 {
+  font-size: 25px;
+}
+
+.profileDesc p {
+  font-size: 18px;
+}
+
+#porfolio {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+  text-align: center;
+}
+
+.contact-form {
+  padding: 3rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.contact-info {
+  width: 55%;
+  background: #1e90ff;
+  height: 400px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.form {
+  width: 40%;
+  background: #35424a;
+  display: inline-block;
+  margin-top: auto;
+  height: 400px;
+}
+
+.form input {
+  width: 50%;
+  padding: 5px;
+}
